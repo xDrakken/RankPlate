@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.configuration.file.FileConfiguration;
  
  
-public class YamlConfiguration extends JavaPlugin {
+public class YamlConfiguration
  
     @Override
     public void onEnable() {
