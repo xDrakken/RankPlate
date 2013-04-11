@@ -11,8 +11,8 @@ public class PlayerData
   private final Set<String> characters = new java.util.HashSet();
   private final Set<String> maps = new java.util.HashSet();
   private boolean vip;
-  private boolean minecadePRO;
-  private boolean gm;
+  private boolean pro;
+  private boolean master;
   
   
   
@@ -27,16 +27,12 @@ public class PlayerData
     return this.maps.contains(map);
   } 
   
-  public boolean isGM() {
-    return this.gm;
+  public boolean isPro() {
+    return this.pro;
   } 
   
-  public boolean isMinecadePRO() {
-    return this.minecadePRO;
-  } 
-  
-  public boolean isVip() {
-    return (isMinecadePRO()) || (this.vip);
+  public boolean Master() {
+    return this.Master;
   } 
   
   public void setCharacter(String character, boolean allow) {
@@ -45,8 +41,8 @@ public class PlayerData
     } 
   } 
   
-  public void setGM(boolean gm) {
-    this.gm = gm;
+  public void setPro(boolean pro) {
+    this.pro = pro;
   } 
   
   public void setMap(String map, boolean allow) {
@@ -55,8 +51,8 @@ public class PlayerData
     } 
   } 
   
-  public void setMinecadePRO(boolean minecadePRO) {
-    this.minecadePRO = minecadePRO;
+  public void setMaster(boolean Master) {
+    this.Master = Master;
   } 
   
   public void setVip(boolean vip) {

@@ -41,7 +41,7 @@ public void onPlayerLogin(PlayerLoginEvent event) {
     if (event.getPlayer().isOp()) {
       ScoreboardManager.overlap(event.getPlayer().getName(), new StringBuilder().append("[").append(ChatColor.RED).append("OP").append(ChatColor.WHITE).append("] ").toString(), "");
     }
-    else if (data.isGM()) {
+    else if (data.isPro()) {
       ScoreboardManager.overlap(event.getPlayer().getName(), new StringBuilder().append("[").append(ChatColor.AQUA).append("GM").append(ChatColor.WHITE).append("] ").toString(), "");
     }
     else if (data.isVip()) {
