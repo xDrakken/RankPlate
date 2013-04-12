@@ -42,7 +42,7 @@ public void onPlayerLogin(PlayerLoginEvent event) {
       ScoreboardManager.overlap(event.getPlayer().getName(), new StringBuilder().append("[").append(ChatColor.RED).append("OP").append(ChatColor.WHITE).append("] ").toString(), "");
     }
     else if (data.isPro()) {
-      ScoreboardManager.overlap(event.getPlayer().getName(), new StringBuilder().append("[").append(ChatColor.AQUA).append("GM").append(ChatColor.WHITE).append("] ").toString(), "");
+      ScoreboardManager.overlap(event.getPlayer().getName(), new StringBuilder().append("[").append(ChatColor.AQUA).append("PRO").append(ChatColor.WHITE).append("] ").toString(), "");
     }
     else if (data.isVip()) {
       ScoreboardManager.overlap(event.getPlayer().getName(), new StringBuilder().append("[").append(ChatColor.GOLD).append("VIP").append(ChatColor.WHITE).append("] ").toString(), "");
