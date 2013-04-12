@@ -1,7 +1,7 @@
 name: RankPlate
 main: me.drakken.RankPlate
 version: ${build.number}
-website: Drakken.me
+website: drakken.me
 description: Displays you rank name above your head.
 authors: [Drakken]
 
